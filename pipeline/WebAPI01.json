@@ -1,0 +1,27 @@
+{
+	"name": "WebAPI01",
+	"properties": {
+		"activities": [
+			{
+				"name": "DemoWeb01",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"url": "InstrumentationKey=cc580128-94c9-4ebd-96de-48c86ca56f1d;IngestionEndpoint=https://southcentralus-0.in.applicationinsights.azure.com/;LiveEndpoint=https://southcentralus.livediagnostics.monitor.azure.com/",
+					"method": "GET"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2022-07-19T17:19:34Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

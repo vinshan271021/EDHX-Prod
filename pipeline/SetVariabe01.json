@@ -1,0 +1,26 @@
+{
+	"name": "SetVariabe01",
+	"properties": {
+		"description": ",,,",
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "Set",
+					"value": "0"
+				}
+			}
+		],
+		"variables": {
+			"Set": {
+				"type": "Boolean"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2022-07-19T17:23:07Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

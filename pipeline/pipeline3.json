@@ -1,0 +1,25 @@
+{
+	"name": "pipeline3",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "abc",
+					"value": "RRR"
+				}
+			}
+		],
+		"variables": {
+			"abc": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2022-07-19T17:27:10Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
